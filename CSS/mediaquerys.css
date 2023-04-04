@@ -1,0 +1,59 @@
+@media (min-width: 768px){
+    body{
+        max-width: 700px;
+        margin: auto;
+    }
+    aside{
+        border: 3px #7F7F7F dotted;
+    }
+    section{
+        margin-top: 50px;
+    }
+    div.img-block{
+        width: 700px;
+    }
+    div.info-block{
+        max-width: 700px;
+        border-bottom: dotted 2px black;
+    }
+    div.exp-block{
+        margin: 5px;
+        border: 2px solid black;
+        padding: 4px;
+    }
+    ul{
+        max-width: 700px;
+        font-size: 16px;
+    }
+    footer{
+        max-width: 700px;
+        margin: 5px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    p.category{
+        font-size: 18px;
+    }
+    p.info{
+        font-size: 18px;
+    }
+}
+@media (min-width: 1440px){
+    aside{
+        position: fixed;
+        top: 0;
+        left: 10%;
+        width: 200px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+}

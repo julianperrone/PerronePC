@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    color: white;    
+}
+
+
+header{
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+}
+h1{
+    border: dotted #3D3D3D 1px;
+    margin: 4px;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+h2{
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+aside.side-menu{
+    width: 100%;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    text-align: center;
+    border-bottom: solid red 1px;
+}

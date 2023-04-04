@@ -43,22 +43,22 @@ function sendEmail() {
 
 /* Solucion Formspree */
 
-const $form = document.querySelector('#form')
+const $form = document.querySelector('form#form')
 
 $form.addEventListener('submit', handleSubmit)
 
 async function handleSubmit(event) {
   event.preventDefault()
-  const form = new FormData(this)
-  const response = await fetch(this.action, {
-    method: this.method,
+  const form = new FormData($form)
+  const response = await fetch($form.action, {
+    method: $form.method,
     body: form,
     headers: {
       'Accept': 'application/json'
     }
   })
   if (response.ok) {
-    this.reset()
+    $form.reset()
     alert('Gracias por contactarse, tu consulta sera respondida lo antes posible')
   }
 }

@@ -174,7 +174,7 @@
                         <textarea id="message" name="message">Mensaje</textarea>
                     </div>
                     <!--Este es el boton que llama la funcion "printform()" cuando es clickeado para mostrar la informacion ingresada en el formulario en la siguiente seccion-->
-                    <button type="submit" id="send">Enviar</button>
+                    <button type="submit" id="submit">Enviar</button>
                 </ul>
             </form>
             <h3>Informacion de Formulario enviada</h3>
@@ -198,7 +198,28 @@
         <p><a href="mailito:julianperrone555@live.com">julianperrone555@live.com</a></p>
     </footer>
 <!--Este archivo de scripts, tiene el codigo utilizado para hacer que el formulario funcione, tome los datos, reemplace los datos en el archivo HTML y muestre una alerta antes de hacerlo-->
-    <script src="scripts.js"></script>
+    <script src="scripts.js">
+        const $form = document.querySelector('#form')
+
+        $form.addEventListener('submit', handleSubmit)
+
+        async function handleSubmit(event) {
+        event.preventDefault()
+        const form = new FormData(this)
+        const response = await fetch(this.action, {
+            method: this.method,
+            body: form,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        if (response.ok) {
+            this.reset()
+            alert('Gracias por contactarse, tu consulta sera respondida lo antes posible')
+            }
+        }
+
+    </script>
 </body>
 </html>
 

@@ -1,16 +1,18 @@
 /*Secciones*/
 body{
+    margin-top: 10px;
     max-width: 100%;
     margin: 2px;   
     background-color: black;
     color: white;
+    margin-bottom: 10px;
 }
 header{
     width: auto;
     margin: 1px;
     align-content: center;
     align-items: center;
-    border: solid 5px gray;
+    border: solid 1px gray;
 }
 aside{
     margin: 1px;
@@ -92,6 +94,10 @@ h4{
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
+}
+h4.subtitle{
+    margin: 10px;
+    font-weight: normal;
 }
 h5{
     margin: 0;

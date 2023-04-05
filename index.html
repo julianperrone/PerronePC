@@ -4,231 +4,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
-    <meta property="og:tittle" content="Curriculum Vitae" />
+    <title>Perrone Soluciones Informaticas</title>
+    <meta property="og:tittle" content="Perrone Soluciones Informaticas" />
     <meta property="og:type" content="article" />
-    <meta property="og:image" content="IMG/profile-picture.jpg" />
-    <meta property="og:description" content="Esta es un cv realizado para el Argentina Programa 4.0. Todos los datos son ficticios" />
-    <!--La hoja de estilos styles.css esta hecha para telefonos, luego se acomoda para desktop y tablet mediante la hoja de estilos mediaquerys.css donde se alojan los cambios-->
+    <meta property="og:image" content="IMG/Logo 2020.png" />
+    <meta property="og:description" content="Emprendimiento con la mision de dar el mejor servicio de soporte tecnico informatico de la ciudad, a un precio razonable" />
     <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
     <link rel="stylesheet" type="text/css" href="CSS/mediaquerys.css" />
 </head>
 <body>
-    <!--Pagina web desarrollada por Julian Facundo Perrone para el curso Argentina Programa 4.0 dictado en Ticmas para ser entregado con fecha de entrega 1 de Marzo del 2023-->
+
     <header>
-        <h1>Curriculum Vitae</h1>
+        <div class="img-block">
+            <img class="logo" src="IMG/Logo 2020.png"></img>
+        </div>
+        <h1>Perrone Soluciones Informaticas</h1>
     </header>
     <aside class="left-section">
-        <!--Esta seccion, a travez de los mediaquery se pone a la izquierda de la pagina principal despues de superar una pantalla de 1440px de ancho-->
-        <h3>Indice de secciones</h3>
-        <a id="top-menu" href="#info-personal"> Informacion Personal </a>
-        <a id="top-menu" href="#exp-lab"> Experiencia Laboral </a>
-        <a id="top-menu" href="#edu"> Educacion </a>
-        <a id="top-menu" href="#aptitudes"> Aptitudes </a>
-        <a id="top-menu" href="#contacto"> Info de Contacto </a>
+        <h3>Secciones</h3>
+        <a id="top-menu" href="#info-gral"> Informacion General </a>
+        <a id="top-menu" href="#services"> Descripcion de Servicios </a>
+        <a id="top-menu" href="#payment"> Formas de Pago </a>
+        <a id="top-menu" href="#contact-info"> Info de Contacto </a>
         <a id="top-menu" href="#form"> Formulario de Contacto </a>
     </aside>
 
     <main>
-        <section id="info-personal">
-            <h3> Informacion Personal </h3>
-            <!--Cada div con clase "info-block" se utiliza para alinear verticalmente los dos elementos P que forman una sola linea con categoria, e informacion-->
-            <div class="img-block">
-                <img src="https://randomuser.me/api/portraits/men/62.jpg"></img>
-            </div>
+        <section id="info-gral">
+            <h3> Informacion General </h3>
 
-            <div class="info-block">
-                <p class="category">Nombre: </p> <p class="info">Nicolas</p>
-            </div>
+            <div class="big-block">
 
-            <div class="info-block">
-                <p class="category">Apellido: </p> <p class="info">Cabrera</p>
-            </div>
+                <p class="big-box">Somos un emprendimiento que tiene como objetivo, brindar un servicio de soporte tecnico informatico, de la mejor calidad posible. Trabajando exclusivamente en la Ciudad de Santa Fe.</p>
 
-            <div class="info-block">
-                <p class="category">Fecha de Nacimiento: </p> <p class="info">15/03/1982</p>
-            </div>
+                <p class="big-box">El mantenimiento y la resolucion de problemas en un equipo es clave para su buen funcionamiento. Podes buscar como hacerlo en YouTube, Google, o en cualquier parte de internet. Pero un tecnico capacitado, ya que su experiencia y su conocimiento puede ahorrarte tiempo y e inconvenientes. </p>
 
-            <div class="info-block">
-                <p class="category">Nacionalidad</p> <p class="info">Argentina</p>
-            </div>
+                <p class="big-box">Con casi 10 años de experiencia en el rubro y conocimiento, podemos brindar el mejor servicio, al mejor costo.</p>
 
-            <div class="info-block">
-                <p class="category">Localidad</p> <p class="info">Santa Fe</p>
-            </div>
-            
-            <div class="info-block">
-                <p class="category">Provincia</p> <p class="info">Santa Fe</p>
             </div>
 
         </section>
 
-        <section id="exp-lab">
-            <h3>Experiencia Laboral</h3>
-            <div class="exp-block">
-                <h4>Microsoft Corporation</h4>
-                <div class="info-block">
-                    <p class="category">Puesto: </p> <p class="info">Soporte Tecnico Nivel 1</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Tiempo de trabajo: </p> <p class="info">2 años</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Motivo de finalizacion:  </p><p class="info">Contrato vencido</p>
-                </div>
-            </div>
-            <div class="exp-block">
-                <h4>Amazon Web Services</h4>
-                <div class="info-block">
-                    <p class="category">Puesto: </p> <p class="info">Soporte Tecnico Nivel 2</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Tiempo de trabajo: </p> <p class="info">3 años</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Motivo de finalizacion: </p> <p class="info">Cambio de trabajo</p>
-                </div>
-            </div>
-            <div class="exp-block">
-                <h4>Mercado Libre</h4>
-                <div class="info-block">
-                    <p class="category">Puesto: </p> <p class="info">Analista de infraestructura</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Tiempo de Trabajo: </p> <p class="info">2 años</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Motivo de finalizacion: </p> <p class="info">Actual Trabajo</p>
-                </div>
-            </div>
-        </section>
-        <section id="edu">
-            <h3>Educacion</h3>
-            <div class="exp-block">
-                <h4>Titulo Secundario</h4>
-                <div class="info-block">
-                    <p class="category">Institucion: </p> <p class="info">Escuela Industrial Superior</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Titulo: </p> <p class="info">Tecnico Electromecanico</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Año graduado: </p> <p class="info">2001</p>
-                </div>
-            </div>
-            <div class="exp-block">
-                <h4>Titulo Universitario</h4>
-                <div class="info-block">
-                    <p class="category">Institucion: </p> <p class="info">Universidad Tecnologica Nacional</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Titulo: </p> <p class="info">Ingenieria en Sistemas de Informacion</p>
-                </div>
-                <div class="info-block">
-                    <p class="category">Año graduado: </p> <p class="info">2006</p>
-                </div>
-            </div>            
-        </section>
-        <section id="aptitudes">
-            <h3>Aptitudes</h3>
+        <section id="services">
+            <h3>Descripcion de Servicios</h3>
             <ul>
-                <li>Puntual</li>
-                <li>Responsable</li>
-                <li>Rapido aprendizaje</li>
-                <li>Resolutivo</li>
-                <li>Paciente</li>
-                <li>Ingenioso</li>
+                <li>Mantenimiento preventivo</li>
+                <p>El mantenimiento preventivo esta enfocado en la resolucion de problemas, antes de que estos sucedan. Ya sea limpieza de software y hardware, optimizacion, configuracion de antivirus, backup, u otro tipo de problemas que puedan ser prevenidos.</p>
+
+                <li>Armado de equipos</li>
+                <p>Se realiza un presupuesto de acuerdo a las necesidades del cliente y se devuelve 3 opciones (economico, intermedio, tope de gama). Luego de que el cliente elige el presupuesto a ejecutar, se compran las partes, se arma y se entrega.</p>
+
+                <li>Actualizacion de Hardware</li>
+                <p>Se realiza un relevamiento del hardware actual, se analiza el uso que se le va a dar y se le exponen opciones de actualizacion para que las necesidades del cliente sean completamente cubiertas.</p>
+
+                <li>Eliminacion de virus y programas no deseados</li>
+                <p>Se procede a ejecutar distintos tipos de antivirus y se buscan programas posiblemente dañinos o no deseados para el usuario. Se intentan eliminar todas las amenazas y se instala una solucion de antivirus para evitar posibles futuras amenazas.</p>
+
+                <li>Optimizacion de Software</li>
+                <p>Se ejecutan varios scripts para eliminar archivos basura, se desfragmenta el disco (en caso de que sea rigido), se eliminan servicios no necesarios ejecutados de forma predeterminada en windows, se actualiza, y se optimiza el disco solido. Se relevan programas utilizados y no utilizados para luego eliminar los no utilizados.</p>
+
+                <li>Resolucion de problemas</li>
+                <p>Se procede a replicar el problema, buscar la fuente del mismo, y solucionar ese problema de forma eficaz.</p>
+
+                <li>Y mas servicios!</li>
+                <p>Contactanos y consultanos sobre otro tipo de servicio que necesites. Nuestros datos de contacto estan en la seccion de <a href="#contact">Contacto</a>. O podes contactarnos mediante el <a href="#form">Formulario de Contacto</a> y nosotros te contactaremos a la brevedad.</p>
+
             </ul>
         </section>
-        <section id="contacto">
+
+        <section id="payment">
+            <h3>Formas de Pago</h3>
+
+
+        </section>
+        <section id="contact">
             <h3>Informacion de Contacto</h3>
             <div class="info-block">
-                <p class="category">Numero de Telefono: </p> <p class="info">+54 342 587 4061</p>
+                <p class="category">WhatsApp: </p> <p class="info"><a href="https://wa.me/5493425372001">+54 342 537 2001</a></p>
             </div>
             <div class="info-block">
-                <p class="category">Email: </p> <p class="info"><a href="mailito:ncabrera@example.com">ncabrera@example.com</a></p>
+                <p class="category">Email: </p> <p class="info"><a href="mailito:perrone.reparaciones@gmail.com">perrone.reparaciones@gmail.com</a></p>
             </div>
             <div class="info-block">
-                <p class="category">Localidad de residencia: </p> <p class="info">Santa Fe, Provincia de Santa Fe, Argentina</p>
+                <p class="category">Localidad de trabajo: </p> <p class="info"><a href="https://www.google.com/maps/place/Santa+Fe,+Santa+Fe+Province/@-31.618063,-60.7474566,13z/data=!3m1!4b1!4m6!3m5!1s0x95b5a9adc40888e1:0xdcf7761e8d02804a!8m2!3d-31.6106578!4d-60.697294!16zL20vMDJ0YjQy">Ciudad de Santa Fe, Argentina</a></p>
             </div>
-            <div class="info-block">
-                <!--El link de LinkedIn es el home de la pagina, porque, siendo una persona ficticia, no tiene perfil de LinkedIn.-->
-                <p class="category">LinkedIn: </p> <p class="info"><a href="https://www.linkedin.com">Click aqui</a></p>
-            </div>
+                <div class="info-block">
+                    <p class="category">Facebook: </p> <p class="info"><a href="https://www.facebook.com/PerronePC">@PerronePC</a></p>
+                </div>
+                <div class="info-block">
+                    <p class="category">Instagram: </p> <p class="info"><a href="https://www.instagram.com/perrone.pc/">@Perrone.PC</a></p>
+                </div> 
         </section>
         <section id="form">
             <h3>Formulario de Contacto</h3>
-            <!--Este formulario no envia informacion, ya que no hay a donde enviarla. por lo que simplemente muestra el contenido ingresado en la parte inferior del mismo, los campos se completan automaticamente despues de presionar el boton y que una alerta se muestre diciendo lo que va a pasar-->
+            <h5>Completa el formulario y te contactamos a la brevedad</h5>
+            <h5>Los campos marcados con el asterisco rojo son obligatorios</h5>
             <form id="form" class="form" method="POST" action="https://formspree.io/f/xdovwjgj">
                 <ul>
                     <div class="form">
-                        <label for="name">Nombre:</label>
-                        <input type="text" id="name" name="name"/>
+                        <label for="name">Nombre:</label><span class="req">*</span>
+                        <input type="text" id="name" name="name" required/>
                     </div>
                     <div class="form">
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="email" name="email" />
+                        <label for="mail">E-mail:</label><span class="req">*</span>
+                        <input type="email" id="email" name="email" required/>
                     </div>
                     <div class="form">
-                        <label for="message">Mensaje:</label>
-                        <textarea id="message" name="message">Mensaje</textarea>
+                        <label for="message">Mensaje:</label><span class="req">*</span>
+                        <textarea id="message" name="message" required></textarea>
                     </div>
-                    <!--Este es el boton que llama la funcion "printform()" cuando es clickeado para mostrar la informacion ingresada en el formulario en la siguiente seccion-->
                     <button type="submit" id="submit">Enviar</button>
                 </ul>
-            </form>
-            <h3>Informacion de Formulario enviada</h3>
-            <!--La informacion ingresada en el formulario va a aparecer en esta seccion luego de que se haya hecho click en el boton de "enviar"-->
-            <div class="info-block">
-                <p class="category">Nombre: </p> <p class="info" id="nameform"></p>
-            </div>
-            <div class="info-block">
-                <p class="category">E-Mail: </p> <p class="info" id="emailform"></p>
-            </div>
-            <div class="info-block"> 
-                <p class="category">Mensaje: </p> <p class="info" id="msgform"></p>
-            </div>
         </section>
     </main>
 
     <footer>
-        <p>Toda la informacion de este curriculum vitae es ficticia.</p>
-        <p>Esta pagina fue desarrollada por Julian Facundo Perrone (DNI 39.629.164) para el uso exclusivo del curso Argentina Programa 4.0</p>
-        <p>Ante cualquier consulta contactese al siguiente correo electronico: </p>
-        <p><a href="mailito:julianperrone555@live.com">julianperrone555@live.com</a></p>
+        <p>Desarrollado por Perrone Soluciones Informaticas</p>
+        <p>Abril 2023</p>
+        <p>Ante cualquier consulta comunicarse por los medios de <a href="#contact">contacto</a> o atravez del <a href="#form">formulario de contacto</a></p>
     </footer>
-<!--Este archivo de scripts, tiene el codigo utilizado para hacer que el formulario funcione, tome los datos, reemplace los datos en el archivo HTML y muestre una alerta antes de hacerlo-->
-    <script src="scripts.js">
-        const $form = document.querySelector('#form')
 
-        $form.addEventListener('submit', handleSubmit)
-
-        async function handleSubmit(event) {
-        event.preventDefault()
-        const form = new FormData(this)
-        const response = await fetch(this.action, {
-            method: this.method,
-            body: form,
-            headers: {
-                'Accept': 'application/json'
-            }
-        })
-        if (response.ok) {
-            this.reset()
-            alert('Gracias por contactarse, tu consulta sera respondida lo antes posible')
-            }
-        }
-
-    </script>
+    <script src="scripts.js"></script>
 </body>
 </html>
-
-<!--
-Desarrollado por Julian Facundo Perrone. 
-
-Datos de contacto:
-Celular +54 342 537 2001
-Correo Electronico: julianperrone555@live.com
-Correo Electronico Secundario: julianperrone555@gmail.com
-LinkedIn: https://www.linkedin.com/in/julianfperrone/ 
--->

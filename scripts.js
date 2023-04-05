@@ -17,6 +17,6 @@ async function handleSubmit(event) {
   })
   if (response.ok) {
     $form.reset()
-    alert('Gracias por contactarse, tu consulta sera respondida lo antes posible')
+    alert('¡Gracias por contactarte! Tu consulta sera respondida a la brevedad.')
   }
 }

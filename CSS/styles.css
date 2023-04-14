@@ -40,6 +40,9 @@ header{
     text-align: center;
     border: solid 1px gray;
 }
+div.menu-container{
+    text-align: center;
+}
 aside{
     margin: 1px;
     border: 1px #7F7F7F dotted;
@@ -145,9 +148,10 @@ a{
     font-family: 'Times New Roman';
     text-decoration: underline;
 }
-a#top-menu{
+a.top-menu{
     display: block;
     margin: 2px;
+    border: dotted 1px yellow;
     font-family: 'Times New Roman';
     text-decoration: underline;
     color: yellow;

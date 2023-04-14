@@ -47,13 +47,145 @@
         font-size: 18px;
     }
 }
+@media (min-width: 1080px){
+    body{
+        max-width: 900px;
+        margin: auto;
+    }
+    aside{
+        border: 3px #7F7F7F dotted;
+    }
+    section{
+        margin-top: 50px;
+    }
+    div.img-block{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        align-self: center;
+        align-content: center;
+    }
+    img.logo{
+        margin: auto;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+    }
+    div.info-block{
+        max-width: 100%;
+        border-bottom: dotted 2px gray;
+    }
+    div.exp-block{
+        margin: 5px;
+        border: 2px solid gray;
+        padding: 4px;
+    }
+    form.form{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    ul{
+        max-width: 100%;
+        font-size: 16px;
+    }
+    footer{
+        max-width: 100%;
+        margin: 5px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    p.category{
+        font-size: 18px;
+    }
+    p.info{
+        font-size: 18px;
+    }
+    p{
+        width: 100%;
+    }
+}
 @media (min-width: 1440px){
     aside{
         position: fixed;
         top: 0;
-        left: 10%;
+        left: 2%;
         width: 200px;
         padding: 20px;
         box-sizing: border-box;
+    }
+}
+
+@media (min-width: 2560px){
+    body{
+        max-width: 1440px;
+    }
+    aside{
+        width: 400px;
+    }
+    ul{
+        max-width: 100%;
+        font-size: 16px;
+    }
+    footer{
+        max-width: 100%;
+        margin: 5px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    h4{
+        font-size: 32px;
+    }
+    h5{
+        font-size: 24px;
+    }
+    p.category{
+        font-size: 22px;
+    }
+    p.info{
+        font-size: 22px;
+    }
+    p.big-box{
+        font-size: 22px;
+    }
+    p{
+        width: 100%;
+        font-size: 22px;
+    }
+    a{
+        font-size: 22px;
+    }
+    a#top-menu{
+        font-size: 20px;
+    }
+    li{
+        font-size: 24px;
+    }
+    label{
+        font-size: 20px;
+    }
+    input{
+        font-size: 20px;
+    }
+    button{
+        font-size: 20px;
+    }
+    span.req{
+        font-size: 20px;
     }
 }

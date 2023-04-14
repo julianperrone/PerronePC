@@ -14,7 +14,10 @@
     <link rel="stylesheet" type="text/css" href="CSS/mediaquerys.css" />
 </head>
 <body>
-
+    <div class="hamburger">
+        <h1 class="hamburger">Perrone Soluciones Informaticas</h1>
+        <button id="hamburger-button">☰</button>
+    </div>
     <header>
         <div class="img-block">
             <img class="logo" src="IMG/Logo 2020.png"></img>
@@ -25,10 +28,12 @@
     </header>
     <aside class="left-section">
         <h3>Secciones</h3>
-        <a id="top-menu" href="#info-gral"> Informacion General </a>
-        <a id="top-menu" href="#services"> Descripcion de Servicios </a>
-        <a id="top-menu" href="#contact-info"> Info de Contacto </a>
-        <a id="top-menu" href="#form"> Formulario de Contacto </a>
+        <div class="menu-container">
+            <a class="top-menu" href="#info-gral"> Informacion General </a>
+            <a class="top-menu" href="#services"> Descripcion de Servicios </a>
+            <a class="top-menu" href="#contact-info"> Info de Contacto </a>
+            <a class="top-menu" href="#form"> Formulario de Contacto </a>
+        </div>
     </aside>
 
     <main>
@@ -81,7 +86,7 @@
             </ul>
         </section>
 
-        <section id="contact">
+        <section id="contact-info">
             <h3>Informacion de Contacto</h3>
             <div class="info-block">
                 <p class="category">WhatsApp: </p> <p class="info"><a href="https://wa.me/5493425372001">+54 342 537 2001</a></p>

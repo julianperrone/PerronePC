@@ -259,6 +259,9 @@
     p.info{
         font-size: 18px;
     }
+    button#hamburger-button{
+        left: 90%;
+    }
 }
 @media (min-width: 1024px){
     body{

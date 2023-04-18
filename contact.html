@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Perrone Soluciones Informaticas</title>
+    <link rel="icon" type="image/x-icon" href="IMG/Logo 2020 - favicon.ico">
+    <meta property="og:tittle" content="Contacto - Perrone Soluciones Informaticas" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="IMG/Logo-Resized.png" />
+    <meta property="og:description" content="Nuestras mejores vias de comunicacion para que puedas hacer tus consultas y contratarnos" />
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css" />
+    <link rel="stylesheet" type="text/css" href="CSS/mediaquerys.css" />
+</head>
+<body>
+    <div class="hamburger">
+        <h1 class="hamburger">Perrone Soluciones Informaticas</h1>
+        <button id="hamburger-button">☰</button>
+    </div>
+    <header>
+        <div class="img-block">
+            <img class="logo" src="IMG/Logo 2020.png"></img>
+        </div>
+        <h1>Perrone Soluciones Informaticas</h1>
+        <h4 class="subtitle">Servicio Tecnico informatico de primera calidad</h4>
+
+    </header>
+    <aside class="left-section">
+        <h3>Secciones</h3>
+        <div class="menu-container">
+            <a class="top-menu" href="index.html"> Inicio </a>
+            <a class="top-menu" href="services.html"> Descripcion de Servicios </a>
+            <a class="top-menu" href="#contact-info"> Info de Contacto </a>
+            <a class="top-menu" href="#form"> Formulario de Contacto </a>
+        </div>
+    </aside>
+
+    <main>
+        <section id="contact-info">
+            <h3>Informacion de Contacto</h3>
+            <div class="info-block">
+                <p class="category">WhatsApp: </p> <p class="info"><a href="https://wa.me/5493425372001">+54 342 537 2001</a></p>
+            </div>
+            <div class="info-block">
+                <p class="category">Email: </p> <p class="info"><a href="mailito:perrone.reparaciones@gmail.com">perrone.reparaciones@gmail.com</a></p>
+            </div>
+            <div class="info-block">
+                <p class="category">Localidad de trabajo: </p> <p class="info"><a href="https://www.google.com/maps/place/Santa+Fe,+Santa+Fe+Province/@-31.618063,-60.7474566,13z/data=!3m1!4b1!4m6!3m5!1s0x95b5a9adc40888e1:0xdcf7761e8d02804a!8m2!3d-31.6106578!4d-60.697294!16zL20vMDJ0YjQy">Ciudad de Santa Fe, Argentina</a></p>
+            </div>
+                <div class="info-block">
+                    <p class="category">Facebook: </p> <p class="info"><a href="https://www.facebook.com/PerronePC">@PerronePC</a></p>
+                </div>
+                <div class="info-block">
+                    <p class="category">Instagram: </p> <p class="info"><a href="https://www.instagram.com/perrone.pc/">@Perrone.PC</a></p>
+                </div> 
+        </section>
+        <main>
+            <section id="form">
+                <h3>Formulario de Contacto</h3>
+                <h5>¿Tenes alguna consulta? Lo tenemos cubierto!</h5>
+                <h5>Completa el formulario y te contactamos a la brevedad</h5>
+                <h5>Los campos marcados con el asterisco rojo son obligatorios</h5>
+                
+                <form id="form" class="form" method="POST" action="https://formspree.io/f/xdovwjgj">
+                    <ul>
+                        <div class="form">
+                            <label for="name">Nombre:</label><span class="req">*</span>
+                            <input type="text" id="name" name="name" required/>
+                        </div>
+                        <div class="form">
+                            <label for="mail">E-mail:</label><span class="req">*</span>
+                            <input type="email" id="email" name="email" required/>
+                        </div>
+                        <div class="form">
+                            <label for="message">Mensaje:</label><span class="req">*</span>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" id="submit">Enviar</button>
+                    </ul>
+            </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Perrone Soluciones Informaticas</p>
+        <p>Abril 2023</p>
+        <p>Ante cualquier consulta comunicarse por los medios de <a href="#contact-info">contacto</a> o atravez del <a href="#form">formulario de contacto</a></p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

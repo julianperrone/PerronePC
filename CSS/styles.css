@@ -91,7 +91,7 @@ form {
     margin: 0 10%;
 }
 footer{
-    margin: 1px;
+    margin-top: 10px;
     padding: 5px;
     border: 1px dotted gray;
     font-size: 10px;
@@ -110,10 +110,11 @@ h3{
     margin: 3px;
     text-align: center;
     align-self: center;
-    font-family: 'Times New Roman';
+    font-family: Arial;
     font-size: 20px;
+    font-weight: bolder;
     text-decoration: underline;
-    color: #7F7F7F;
+    color: red;
 }
 h4{
     margin: 3px;

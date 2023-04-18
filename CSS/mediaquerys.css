@@ -180,7 +180,33 @@
     }
 }
 @media (min-width: 1440px){
-
+    h1{
+        font-size: 38px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    h4{
+        font-size: 24px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    p.category{
+        font-size: 20px;
+    }
+    p.info{
+        font-size: 20px;
+    }
+    label{
+        font-size: 18px;
+    }
+    input{
+        font-size: 18px;
+    }
+    textarea{
+        font-size: 18px;
+    }
 }
 
 @media (min-width: 2560px){

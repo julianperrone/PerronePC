@@ -1,3 +1,192 @@
+@media (min-width: 320px){
+    body{
+        max-width: 280px;
+        margin: auto;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+    }
+    h4{
+        font-size: 12px;
+    }
+    h5{
+        font-size: 12px;
+    }
+    p.category{
+        font-size: 10px;
+    }
+    p.info{
+        font-size: 10px;
+    }
+    div.img-block{
+        width: 280px;
+    }
+    div.info-block{
+        max-width: 280px;
+        border-bottom: dotted 2px gray;
+    }
+    div.exp-block{
+        margin: 5px;
+        border: 2px solid gray;
+        padding: 4px;
+    }
+    ul{
+        max-width: 280px;
+        font-size: 10px;
+    }
+    footer{
+        max-width: 280px;
+        margin: 5px;
+        padding: 8px;
+        font-size: 10px;
+    }
+    button#hamburger-button{
+        position: fixed;
+        top: 0;
+        left: 83%;
+        background-color: black;
+        border: solid 1px red;
+        color: red;
+        font-size: 14px;
+    }
+    h1.hamburger{
+        font-size: 14px;
+    }
+    label{
+        font-size: 10px;
+    }
+    input, textarea {
+        font-size: 10px;
+    }
+    span.req{
+        color: red;
+    }
+}
+@media (min-width: 375px){
+    body{
+        max-width: 300px;
+        margin: auto;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    p.category{
+        font-size: 14px;
+    }
+    p.info{
+        font-size: 14px;
+    }
+    div.img-block{
+        width: 300px;
+    }
+    div.info-block{
+        max-width: 300px;
+        border-bottom: dotted 2px gray;
+    }
+    div.exp-block{
+        margin: 5px;
+        border: 2px solid gray;
+        padding: 4px;
+    }
+    ul{
+        max-width: 300px;
+        font-size: 14px;
+    }
+    footer{
+        max-width: 300px;
+        margin: 5px;
+        padding: 8px;
+        font-size: 10px;
+    }
+    button#hamburger-button{
+        position: fixed;
+        top: 0;
+        left: 85%;
+        background-color: black;
+        border: solid 1px red;
+        color: red;
+        font-size: 16px;
+    }
+    h1.hamburger{
+        font-size: 16px;
+    }
+    label{
+        font-size: 12px;
+    }
+    input, textarea {
+        font-size: 12px;
+    }
+    span.req{
+        color: red;
+    }
+}
+@media (min-width: 425px){
+    body{
+        max-width: 300px;
+        margin: auto;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    p.category{
+        font-size: 16px;
+    }
+    p.info{
+        font-size: 16px;
+    }
+    div.img-block{
+        width: 300px;
+    }
+    div.info-block{
+        max-width: 300px;
+        border-bottom: dotted 2px gray;
+    }
+    div.exp-block{
+        margin: 5px;
+        border: 2px solid gray;
+        padding: 4px;
+    }
+    ul{
+        max-width: 300px;
+        font-size: 16px;
+    }
+    footer{
+        max-width: 300px;
+        margin: 5px;
+        padding: 8px;
+        font-size: 12px;
+    }
+    button#hamburger-button{
+        position: fixed;
+        top: 0;
+        left: 85%;
+        background-color: black;
+        border: solid 1px red;
+        color: red;
+        font-size: 18px;
+    }
+    h1.hamburger{
+        font-size: 18px;
+    }
+}
 @media (max-width: 768px){
     .left-section {
         position: fixed;
@@ -5,7 +194,7 @@
         left: 0;
         width: 89%;
         height: 100%;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(0, 0, 0, 0.9);
         z-index: 1;
     }
     .left-section h3 {

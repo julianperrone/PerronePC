@@ -42,6 +42,8 @@ var links = menu.querySelectorAll('a');
 links.forEach(function(link) {
     link.addEventListener('click', function() {
         // Oculta el menú al hacer clic en un enlace
-        menu.style.display = 'none';
+        if (window.innerWidth <= 768) {
+          menu.style.display = 'none';
+      }
     });
 });
